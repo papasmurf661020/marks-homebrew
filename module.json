@@ -1,0 +1,82 @@
+{
+  "id": "marks-homebrew",
+  "title": "Marks Homebrew",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Custom automation and tools for Mark's D&amp;D 5e campaign.</p>",
+  "authors": [
+    {
+      "name": "Mark Suarez",
+      "url": "https://github.com/papasmurf661020/marks-homebrew",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "marks-homebrew-items",
+      "label": "Marks Homebrew Items",
+      "path": "packs/marks-homebrew-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "marks-homebrew-actors",
+      "label": "Marks Homebrew Actors",
+      "path": "packs/marks-homebrew-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "marks-homebrew-macros",
+      "label": "Marks Homebrew Macros",
+      "path": "packs/marks-homebrew-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "marks-homebrew-journals",
+      "label": "Marks Homebrew Journals",
+      "path": "packs/marks-homebrew-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "marks-homebrew-scenes",
+      "label": "Marks Homebrew Scenes",
+      "path": "packs/marks-homebrew-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
