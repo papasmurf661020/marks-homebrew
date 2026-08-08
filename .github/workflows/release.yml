@@ -1,0 +1,60 @@
+name: Create Foundry Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check version
+        shell: bash
+        run: |
+          VERSION=$(jq -r '.version' module.json)
+          TAG="${GITHUB_REF_NAME#v}"
+
+          echo "module.json version: $VERSION"
+          echo "Git tag version: $TAG"
+
+          if [ "$VERSION" != "$TAG" ]; then
+            echo "ERROR: module.json version does not match Git tag."
+            exit 1
+          fi
+
+      - name: Build Foundry module
+        shell: bash
+        run: |
+          mkdir -p dist/package
+
+          rsync -av \
+            --exclude=".git/" \
+            --exclude=".github/" \
+            --exclude="dist/" \
+            --exclude="*.zip" \
+            ./ dist/package/
+
+          cd dist/package
+          zip -r "../marks-homebrew-${GITHUB_REF_NAME}.zip" .
+          cd ../..
+
+          cp module.json dist/module.json
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          gh release create "${GITHUB_REF_NAME}" \
+            "dist/module.json" \
+            "dist/marks-homebrew-${GITHUB_REF_NAME}.zip" \
+            --title "Marks Homebrew ${GITHUB_REF_NAME}" \
+            --generate-notes
