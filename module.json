@@ -1,15 +1,15 @@
 {
   "id": "marks-homebrew",
   "title": "Marks Homebrew",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "compatibility": {
-    "minimum": "13",
-    "verified": "13"
+    "minimum": "14",
+    "verified": "14"
   },
   "description": "Custom automation and tools for Mark's D&D 5e campaign.",
   "url": "https://github.com/papasmurf661020/marks-homebrew",
   "manifest": "https://github.com/papasmurf661020/marks-homebrew/releases/latest/download/module.json",
-  "download": "https://github.com/papasmurf661020/marks-homebrew/releases/download/v1.0.0/marks-homebrew-v1.0.0.zip",
+  "download": "https://github.com/papasmurf661020/marks-homebrew/releases/download/v1.0.3/marks-homebrew-v1.0.3.zip",
   "authors": [
     {
       "name": "Mark Suarez",
