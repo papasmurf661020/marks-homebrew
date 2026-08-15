@@ -3,7 +3,7 @@
   "title": "Marks Homebrew",
   "version": "1.0.4",
   "compatibility": {
-    "minimum": "14",
+    "minimum": "13",
     "verified": "14"
   },
   "description": "Custom automation and tools for Mark's D&D 5e campaign.",
