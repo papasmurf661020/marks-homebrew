@@ -4,7 +4,7 @@
   "version": "1.0.5",
   "compatibility": {
     "minimum": "13",
-    "verified": "14"
+    "verified": "13"
   },
   "description": "Custom automation and tools for Mark's D&D 5e campaign.",
   "url": "https://github.com/papasmurf661020/marks-homebrew",
