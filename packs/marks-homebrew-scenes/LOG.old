@@ -1,11 +1,15 @@
-2026/08/16-14:52:49.731 d0c Recovering log #31
-2026/08/16-14:52:49.733 d0c Level-0 table #33: started
-2026/08/16-14:52:49.736 d0c Level-0 table #33: 20387 bytes OK
-2026/08/16-14:52:49.742 d0c Delete type=0 #31
-2026/08/16-14:52:49.743 d0c Delete type=3 #30
-2026/08/16-14:52:51.530 b60 Compacting 1@0 + 1@1 files
-2026/08/16-14:52:51.545 b60 Generated table #35@0: 1106 keys, 135446 bytes
-2026/08/16-14:52:51.545 b60 Compacted 1@0 + 1@1 files => 135446 bytes
-2026/08/16-14:52:51.547 b60 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/08/16-14:52:51.548 b60 Delete type=2 #29
-2026/08/16-14:52:51.550 b60 Delete type=2 #33
+2026/08/16-22:36:54.203 3154 Recovering log #38
+2026/08/16-22:36:54.205 3154 Level-0 table #41: started
+2026/08/16-22:36:54.214 3154 Level-0 table #41: 60711 bytes OK
+2026/08/16-22:36:54.223 3154 Delete type=0 #38
+2026/08/16-22:36:54.223 3154 Delete type=3 #36
+2026/08/16-22:36:55.959 5fc0 Compacting 1@0 + 1@1 files
+2026/08/16-22:36:55.963 5fc0 Generated table #43@0: 1106 keys, 135303 bytes
+2026/08/16-22:36:55.963 5fc0 Compacted 1@0 + 1@1 files => 135303 bytes
+2026/08/16-22:36:55.963 5fc0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/08/16-22:36:55.963 5fc0 Delete type=2 #39
+2026/08/16-22:36:55.972 5fc0 Delete type=2 #41
+2026/08/16-22:36:58.392 5fc0 Level-0 table #45: started
+2026/08/16-22:36:58.392 5fc0 Level-0 table #45: 0 bytes OK
+2026/08/16-22:36:58.395 5fc0 Delete type=0 #42
+2026/08/16-22:36:58.397 5fc0 Manual compaction at level-0 from '!folders!VAp1SnzDtuVcEh0f' @ 72057594037927935 : 1 .. '!scenes.walls!k4oiQRldKInIrO1G.yXsJmHjtLEAYkI2m' @ 0 : 0; will stop at (end)
