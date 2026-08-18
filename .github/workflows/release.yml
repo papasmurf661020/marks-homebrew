@@ -57,4 +57,5 @@ jobs:
             "dist/module.json" \
             "dist/marks-homebrew-${GITHUB_REF_NAME}.zip" \
             --title "Marks Homebrew ${GITHUB_REF_NAME}" \
-            --generate-notes
+            --generate-notes \
+            --clobber
