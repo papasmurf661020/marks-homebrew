@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="365.81" height="348.78" viewBox="0 0 365.81 348.78">
+<defs><linearGradient id="blood" x2="0.3" y2="1"><stop stop-color="#ff5736"/><stop offset=".45" stop-color="#bb152a"/><stop offset="1" stop-color="#480614"/></linearGradient><linearGradient id="horn" x2="0" y2="1"><stop stop-color="#fff0c6"/><stop offset="1" stop-color="#955448"/></linearGradient></defs>
+<g transform="translate(-73.096 -81.609)"><path fill="url(#blood)" stroke="#31050b" stroke-width="8" stroke-linejoin="round" transform="matrix(.8 0 0 .8 51.2 51.2)" d="m256 38.013c-22.458 0-66.472 110.3-84.64 123.5-18.17 13.2-136.67 20.975-143.61 42.334-6.94 21.358 84.362 97.303 91.302 118.66 6.94 21.36-22.286 136.46-4.116 149.66s118.61-50.164 141.07-50.164 122.9 63.365 141.07 50.164c18.17-13.2-11.056-128.31-4.116-149.66 6.94-21.36 98.242-97.304 91.302-118.66-6.94-21.36-125.44-29.134-143.61-42.335-18.168-13.2-62.182-123.5-84.64-123.5z"/></g>
+<g stroke="#31050b" stroke-width="5" stroke-linejoin="round">
+<path fill="url(#horn)" d="M131 121 C92 108 85 71 98 44 C99 77 124 86 147 87 Z"/>
+<path fill="url(#horn)" d="M235 121 C274 108 281 71 268 44 C267 77 242 86 219 87 Z"/>
+<path fill="#26030b" d="M102 152 L165 176 L148 195 L117 183 Z M264 152 L201 176 L218 195 L249 183 Z"/>
+<path fill="#ffdc66" stroke="none" d="M113 162 L154 178 L145 185 L121 177 Z M253 162 L212 178 L221 185 L245 177 Z"/>
+<path fill="#28030b" d="M130 222 Q183 253 236 222 L219 254 L199 248 L183 264 L166 248 L147 254 Z"/>
+<path fill="#ffebce" stroke="none" d="M145 233 L160 238 L155 251 Z M221 233 L206 238 L211 251 Z"/>
+<path fill="#ffb44b" stroke="none" d="M183 106 L193 132 L183 146 L173 132 Z"/>
+</g></svg>
