@@ -1,3 +1,8 @@
-2026/11/06-17:33:33.131 6420 Recovering log #123
-2026/11/06-17:33:33.150 6420 Delete type=0 #123
-2026/11/06-17:33:33.151 6420 Delete type=3 #122
+2026/11/11-16:49:41.842 3dbc Recovering log #127
+2026/11/11-16:49:41.857 3dbc Delete type=0 #127
+2026/11/11-16:49:41.858 3dbc Delete type=3 #126
+2026/11/11-16:52:15.688 4d8 Level-0 table #131: started
+2026/11/11-16:52:15.690 4d8 Level-0 table #131: 0 bytes OK
+2026/11/11-16:52:15.702 4d8 Delete type=0 #129
+2026/11/11-16:52:15.716 4d8 Manual compaction at level-0 from '!actors!005KEooCSKTurZUD' @ 72057594037927935 : 1 .. '!folders!rJ5o9iVKylGYpbzm' @ 0 : 0; will stop at (end)
+2026/11/11-16:52:15.728 4d8 Manual compaction at level-1 from '!actors!005KEooCSKTurZUD' @ 72057594037927935 : 1 .. '!folders!rJ5o9iVKylGYpbzm' @ 0 : 0; will stop at (end)
